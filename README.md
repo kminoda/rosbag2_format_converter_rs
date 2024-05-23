@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-cargo install --git https://github.com/kminoda/rosbag2_mcap_to_sqlite3.git
+cargo install --git https://github.com/kminoda/rosbag2_format_converter_rs.git
 ```
 
 ## Usage
