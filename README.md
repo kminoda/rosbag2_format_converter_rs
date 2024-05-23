@@ -1,4 +1,4 @@
-# rosbag2_mcap_to_sqlite3
+# rosbag2_format_converter_rs
 
 ## Installation
 
@@ -9,5 +9,9 @@ cargo install --git https://github.com/kminoda/rosbag2_format_converter_rs.git
 ## Usage
 
 ```bash
-rosbag2_mcap_to_sqlite3 <INPUT_BAG> <OUTPUT_BAG>
+# mcap -> sqlite3
+rosbag_format_converter mcap-to-sqlite3 <INPUT_BAG> <OUTPUT_BAG>
+
+# sqlite3 -> mcap
+rosbag_format_converter sqlite3-to-mcap <INPUT_BAG> <OUTPUT_BAG>
 ```
